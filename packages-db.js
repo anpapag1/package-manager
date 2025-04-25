@@ -46,7 +46,7 @@ const packagesDB = {
         },
         "Vivaldi": {
             chocolatey: "vivaldi",
-            winget: "VivaldiTechnologies.Vivaldi",
+            winget: "Vivaldi.Vivaldi",
             scoop: "vivaldi",
             homebrew: "vivaldi",
             apt: "vivaldi-stable",
@@ -74,7 +74,7 @@ const packagesDB = {
             apt: "",
             flatpak: "",
             yay: "opera-gx",
-            icon: "https://static.wikia.nocookie.net/operius/images/f/f6/Opera_GX_Icon.png/revision/latest?cb=20221218141407",
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Opera_GX_Icon.svg/2048px-Opera_GX_Icon.svg.png",
             description: "Gaming-oriented web browser with system optimization features"
         },
         "Brave": {
@@ -103,7 +103,7 @@ const packagesDB = {
         },
         "Beeper": {
             chocolatey: "",
-            winget: "Beeper.Beeper",
+            winget: "NovaTechnology.Beeper",
             scoop: "",
             homebrew: "--cask beeper",
             apt: "",
@@ -182,7 +182,7 @@ const packagesDB = {
         },
         "Keepass": {
             chocolatey: "keepass",
-            winget: "KeePass.KeePass",
+            winget: "KeePassXCTeam.KeePassXC",
             scoop: "keepass",
             homebrew: "keepass",
             apt: "keepass2",
@@ -193,7 +193,7 @@ const packagesDB = {
         },
         "QtPass": {
             chocolatey: "",
-            winget: "",
+            winget: "IJHack.QtPass",
             scoop: "",
             homebrew: "qtpass",
             apt: "qtpass",
@@ -348,6 +348,17 @@ const packagesDB = {
             yay: "",
             icon: "https://www.voidtools.com/Everything.ico",
             description: "Locate files and folders by name instantly"
+        },
+        "Everything Toolbar": {
+            chocolatey: "everything-toolbar",
+            winget: "stnkl.EverythingToolbar",
+            scoop: "everything-toolbar",
+            homebrew: "",
+            apt: "",
+            flatpak: "",
+            yay: "",
+            icon: "https://media.licdn.com/dms/image/v2/C5603AQHTFHycrNDs_A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1577943495909?e=2147483647&v=beta&t=t2KDK56Hm0U8po9qu6lTbTL48rO40qBLbui46u56jaA",
+            description: "Search Windows using Everything from the taskbar"
         },
         "TeraCopy": {
             chocolatey: "teracopy",
@@ -520,7 +531,7 @@ const packagesDB = {
         },
         "Godot": {
             chocolatey: "godot",
-            winget: "GodotEngine.Godot",
+            winget: "GodotEngine.GodotEngine",
             scoop: "godot",
             homebrew: "godot",
             apt: "godot",
@@ -531,7 +542,7 @@ const packagesDB = {
         },
         "Godot Mono": {
             chocolatey: "godot-mono",
-            winget: "GodotEngine.Godot.Mono",
+            winget: "GodotEngine.GodotEngine.Mono",
             scoop: "godot-mono",
             homebrew: "godot-mono",
             apt: "godot-mono",
@@ -553,7 +564,7 @@ const packagesDB = {
         },
         "Paint.NET": {
             chocolatey: "paint.net",
-            winget: "dotPDN.Paint.NET",
+            winget: "dotPDNLLC.paintdotnet",
             scoop: "paint.net",
             homebrew: "",
             apt: "",
