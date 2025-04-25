@@ -144,9 +144,14 @@
                 <h2 class="text-2xl font-semibold mb-4">Installation Command</h2>
                 <div class="bg-gray-800 text-white p-4 rounded-lg relative">
                     <pre id="command-text" class="whitespace-pre-wrap"></pre>
-                    <button id="copy-command" class="absolute top-2 right-2 p-2 bg-blue-500 hover:bg-blue-600 rounded">
-                        <i class="far fa-copy"></i>
-                    </button>
+                    <div class="absolute top-2 right-2 flex gap-2">
+                        <button id="download-script" class="p-2 bg-green-500 hover:bg-green-600 rounded" title="Download as script">
+                            <i class="fas fa-download"></i>
+                        </button>
+                        <button id="copy-command" class="p-2 bg-blue-500 hover:bg-blue-600 rounded" title="Copy to clipboard">
+                            <i class="far fa-copy"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="mt-4">
                     <label class="flex items-center space-x-2">
@@ -162,3 +167,4 @@
     <script src="app.js"></script>
 </body>
 </html>
+``` 

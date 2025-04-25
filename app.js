@@ -199,6 +199,40 @@ document.addEventListener('DOMContentLoaded', () => {
             autoYesCheckbox.checked = false;
         }
     });
+
+    // Replace the download script event listener with this updated version
+    document.getElementById('download-script').addEventListener('click', function() {
+        const selectedPM = document.querySelector('.pm-btn.border-blue-500').dataset.pm;
+        const commandText = document.getElementById('command-text').textContent;
+        const autoYes = document.getElementById('auto-yes').checked;
+        
+        let fileExtension = selectedPM.includes('win') ? '.bat' : '.sh';
+        let scriptContent = '';
+        
+        if (fileExtension === '.bat') {
+            scriptContent = '@echo off\n';
+            if (autoYes) {
+                scriptContent += 'echo Running installation commands...\n';
+            }
+            scriptContent += commandText;
+        } else {
+            scriptContent = '#!/bin/bash\n';
+            if (autoYes) {
+                scriptContent += 'echo "Running installation commands..."\n';
+            }
+            scriptContent += commandText;
+        }
+        
+        const blob = new Blob([scriptContent], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `install_packages${fileExtension}`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    });
 });
 
 // Add these helper functions
