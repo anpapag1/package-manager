@@ -1,0 +1,142 @@
+## Browsers 🌐
+
+- Mozilla Firefox
+- Google Chrome
+- Chromium
+- Ungoogled Chromium
+- Vivaldi
+- Opera
+- Brave
+
+## Messaging & Communication 📧
+
+- Discord
+- Beeper
+- Slack
+- Zoom
+- Skype
+- Thunderbird
+
+## Security 🔐
+
+- Bitwarden
+- KeePassXC
+- Keepass
+- QtPass
+- LastPass
+- OpenVPN
+- Tailscale
+- WireGuard
+
+## Media 🎞
+
+- Spotify
+- iTunes
+- VLC
+- foobar2000
+- MPC-HC
+- K-Lite Codec Pack (Full)
+- Handbrake
+
+## Utility 🔧
+
+- PowerToys
+- Everything
+- TeraCopy
+- TreeSize Free
+- WizTree
+- CPU-Z
+- GPU-Z
+- Etcher
+- Rufus
+- AutoHotkey
+- Lightshot
+- Flameshot
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+## File Sharing 📂
+
+- LocalSend
+- qBittorrent
+
+## Creative 🎨
+
+- OBS Studio
+- Audacity
+- Unity Hub
+- Godot
+- Godot (with Mono/C#)
+- Blender
+- Paint.NET
+- GIMP
+- Figma
+- Inkscape
+
+## Compression 🗜️
+
+- 7-Zip
+- KDE Ark
+- PeaZip
+- WinRAR
+
+## Cloud ☁️
+
+- Dropbox
+- Google Drive
+- Insync
+- Nextcloud
+
+## Documents 📄
+
+- Foxit PDF Reader
+- Sumatra PDF Reader
+- Adobe Acrobat Reader
+- PDFCreator
+- CutePDF
+///////////////////ekana os edw
+## Writing 🖋
+
+- Notion
+- Obsidian
+- Logseq
+- LibreOffice
+
+## Gaming 🎮
+
+- Steam
+- Epic Games Launcher
+- GOG Galaxy
+- Heroic Games Launcher
+
+## Dev Langs & Runtimes 🧑‍💻
+
+- Python 3
+- Python2
+- NodeJS
+- NodeJS (LTS)
+- Deno
+- Oracle JDK 17
+- Go
+- Rust MSVC
+- Rustup
+- Ruby
+- Perl
+
+## Dev Tools 🪛
+
+- PowerShell
+- Visual Studio Code
+- VSCodium
+- Notepad++
+- Git
+- Git LFS
+- AWS CLI
+- Azure CLI
+- Docker Desktop
+- OpenSSH
+- WinSCP
+- FileZilla
+- PuTTY
+- Arduino IDE
+- GNU Wget
+- VirtualBox
+- Wireshark
