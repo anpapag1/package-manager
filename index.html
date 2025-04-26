@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Package Manager Assistant</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="assets/Logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>        
@@ -21,10 +21,65 @@
             white-space: nowrap;
             transition: all 0.2s;
         }
+
+        #command-output {
+            position: fixed;
+            bottom: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 1200px;
+            background-color: rgb(255, 255, 255);
+            padding: 1.5rem;
+            z-index: 1000;
+            border-radius: 0.75rem;
+            border: 2px solid rgb(59, 130, 246);
+            height: auto;
+            max-height: 32vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        }
+
+        #command-output .bg-gray-800 {
+            background-color: rgb(243, 244, 246);
+            border: 1px solid rgb(229, 231, 235);
+        }
+
+        #command-output pre {
+            color: rgb(31, 41, 55);
+        }
+
+        #command-output h2 {
+            color: rgb(59, 130, 246);
+        }
+
+        #command-output label span {
+            color: rgb(75, 85, 99);
+        }
+
+        /* Add transition for smooth appearance */
+        #command-output.hidden {
+            opacity: 0;
+            transform: translate(-50%, 100%);
+            transition: all 0.3s ease-in-out;
+        }
+
+        #command-output:not(.hidden) {
+            opacity: 1;
+            transform: translate(-50%, 0);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Adjust margins and spacing */
+        .main-content {
+            padding-bottom: 10rem;
+            margin-bottom: 10rem;
+        }
+
     </style>
 </head>
 <body class="bg-gray-50">
-    <div class="container mx-auto px-4 py-8 max-w-6xl">
+    <div class="container mx-auto px-4 py-8 max-w-6xl main-content">
         <h1 class="text-4xl font-bold text-center text-blue-600 mb-8">Package Manager Assistant</h1>
         
         <!-- Package Manager Selection -->
@@ -168,4 +223,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-``` 
