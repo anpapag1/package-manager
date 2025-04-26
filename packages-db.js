@@ -823,6 +823,19 @@ const packagesDB = {
             icon: "https://user-images.githubusercontent.com/25513724/220608753-f33db466-af72-4611-b603-411440c15ed0.png?sanatize=true",
             description: "Privacy-first, open-source knowledge base and task management"
         },
+        // Microsoft.Office
+        "Microsoft Office": {
+            chocolatey: "microsoft-office",
+            winget: "Microsoft.Office",
+            scoop: "",
+            homebrew: "--cask microsoft-office",
+            apt: "",
+            flatpak: "",
+            yay: "",
+            icon: "https://iloadzonev2.sgp1.cdn.digitaloceanspaces.com/wp-content/uploads/2021/04/0-as4ddddd.png",
+            description: "Suite of productivity applications including Word, Excel, and PowerPoint"
+        },
+
         "LibreOffice": {
             chocolatey: "libreoffice-fresh",
             winget: "TheDocumentFoundation.LibreOffice",
