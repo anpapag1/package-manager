@@ -224,6 +224,50 @@ const packagesDB = {
             icon: "https://sc.filehippo.net/images/t_app-icon-l/p/01baa812-9b24-11e6-8c21-00163ed833e7/1452966159/openvpn-logo",
             description: "Open source VPN client"
         },
+        "Private Internet Access": {
+            chocolatey: "pia",
+            winget: "PrivateInternetAccess.PrivateInternetAccess",
+            scoop: "pia",
+            homebrew: "private-internet-access",
+            apt: "pia",
+            flatpak: "",
+            yay: "pia",
+            icon: "https://www.privateinternetaccess.com/favicon.ico",
+            description: "Secure VPN service to protect your privacy online"
+        },
+        "ProtonVPN": {
+            chocolatey: "protonvpn",
+            winget: "ProtonTechnologies.ProtonVPN",
+            scoop: "protonvpn",
+            homebrew: "protonvpn",
+            apt: "protonvpn",
+            flatpak: "",
+            yay: "protonvpn",
+            icon: "https://www.protonvpn.com/favicon.ico",
+            description: "Secure VPN service from ProtonMail"
+        },
+        "NordVPN": {
+            chocolatey: "nordvpn",
+            winget: "NordVPN.NordVPN",
+            scoop: "nordvpn",
+            homebrew: "nordvpn",
+            apt: "nordvpn",
+            flatpak: "",
+            yay: "nordvpn-bin",
+            icon: "https://m.media-amazon.com/images/I/31o0QB0R0sL.png",
+            description: "Fast and secure VPN service"
+        },
+        "Surfshark": {
+            chocolatey: "surfshark",
+            winget: "Surfshark.Surfshark",
+            scoop: "surfshark",
+            homebrew: "surfshark",
+            apt: "surfshark",
+            flatpak: "",
+            yay: "surfshark-bin",
+            icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/97/02/22970285-ab0a-aa6f-f044-a2dad29a0ba7/macOS_AppIcon-0-0-85-220-0-0-0-5-0-2x.png/1200x630bb.png",
+            description: "Secure VPN service with no logs policy"
+        },
         "Tailscale": {
             chocolatey: "tailscale",
             winget: "tailscale.tailscale",
